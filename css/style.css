@@ -57,7 +57,7 @@ header nav ul li a{
 }
 
 
-/* propiedades-estilos main index mobile first 360x740px 600px */
+/* propiedades-estilos main index mobile first 360x740px */
 .noticiaCinco, .noticiaSeis, .masNoticias{
     display: none;
 }
@@ -67,10 +67,23 @@ header nav ul li a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.2rem;
     text-shadow: .1rem .1rem .2rem rgba(128, 128, 128, 0.767);
+    grid-area: tituloPrincipal;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+.cajaIframe{
+    width: 95%;
+    transition: border-radius .7s;
+}
+
+.cajaIframe:hover{
+    border-radius: 1.5rem;
 }
 
 .grillaPpal{
     display: grid;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas:
         "tituloPrincipal tituloPrincipal"
         "noticiaUno noticiaDos"
@@ -81,14 +94,12 @@ header nav ul li a{
     text-align: center;
 }
 
-.tituloPrincipal{
-    grid-area: tituloPrincipal;
-    margin-top: 1rem;
-    margin-bottom: .5rem;
-}
-
 .noticiaUno{
     grid-area: noticiaUno;
+}
+
+.tituloNoticia{
+    width: 95%;
 }
 
 .noticiaDos{
@@ -224,11 +235,11 @@ footer nav ul li a{
     background-color:  rgb(193, 227, 255);
     color: rgba(0, 0, 0, 0.603);
     font-weight: bold;
+    transition: background-color .7s;
 }
 
 .botonFormularioContacto:hover{
     background-color: rgba(255, 102, 0, 0.815);
-    transition: background-color .7s;
 }
 
 .campoNombreAp, .campoEmail{
@@ -329,11 +340,11 @@ footer nav ul li a{
     font-weight: bolder;
     font-size: 1.4rem;
     color: black;
+    transition: text-shadow .5s;
 }
 
 .inicioAcercaDe:hover{
     text-shadow: 0px 0px 20px rgb(55, 74, 250);
-    transition: text-shadow .5s;
 }
 
 .disenoWeb{
@@ -369,7 +380,7 @@ footer nav ul li a{
     }
 
     .cajaIframe{
-        width: 70%;
+        width: 95%;
         height: auto;
     }
 
