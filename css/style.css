@@ -193,7 +193,7 @@ footer nav ul li a{
 }
 
 .mainContacto{
-    height: 72vh;
+    height: 33rem;
     display: flex;
     justify-content: center;
     margin-top: 3rem;
@@ -450,6 +450,10 @@ footer nav ul li a{
         text-align: center;
         justify-items: center;
     }
+ 
+    .mainContacto{
+        height: 47rem;
+    }
 
     .tituloFormulario{
         font-size: 2.4rem;
@@ -647,7 +651,7 @@ footer nav ul li a{
     }
 
     .mainContacto{
-        height: 62vh;
+        height: 40rem;
     }
 }
 
